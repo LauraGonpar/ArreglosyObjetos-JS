@@ -1,0 +1,24 @@
+.main-section {
+  background-image: url("../img/photo-1448630360428-65456885c650.avif");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 1.9);
+  letter-spacing: 2px;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  height: 250px;
+}
